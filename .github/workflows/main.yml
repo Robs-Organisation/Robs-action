@@ -6,10 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-    - uses: actions/checkout@v2
-    - id: foo
-      uses: actions/Robs-action@v1.0
+    - name: Robs Greeting
+      # You may pin to the exact commit or the version.
+      # uses: Robs-Organisation/Robs-action@5b51035275ace94c19ce2a6d85eb265461a8207e
+      uses: Robs-Organisation/Robs-action@v1.0
       with:
-        who-to-greet: 'Rob'
-    - run: echo random-number ${{ steps.foo.outputs.random-number }}
-      shell: bash
+        # Who to greet
+        who-to-greet: "Robin"
