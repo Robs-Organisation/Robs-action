@@ -1,4 +1,4 @@
-name: 'Hello Wordl'
+name: 'Robs Greeting'
 description: 'Greet someone'
 inputs:
   who-to-greet:
