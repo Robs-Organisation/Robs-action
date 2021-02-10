@@ -1,3 +1,3 @@
 # Robs-action
 
-This is a Action for testing GitHub Actions.
+This is an action for testing GitHub Actions.
