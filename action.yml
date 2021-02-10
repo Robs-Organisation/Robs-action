@@ -3,7 +3,7 @@ description: 'Greet someone'
 inputs:
   who-to-greet:
     description: 'Who to greet'
-    required: false
+    required: true
     default: 'World'
 outputs:
   random-number:
