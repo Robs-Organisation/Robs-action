@@ -9,7 +9,7 @@ jobs:
     - name: Robs Greeting
       # You may pin to the exact commit or the version.
       # uses: Robs-Organisation/Robs-action@5b51035275ace94c19ce2a6d85eb265461a8207e
-      uses: Robs-Organisation/Robs-action@v1.0
+      uses: Robs-Organisation/Robs-action@v1.1
       with:
         # Who to greet
         who-to-greet: "Robin"
