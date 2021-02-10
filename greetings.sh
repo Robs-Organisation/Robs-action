@@ -1,1 +1,1 @@
-echo "Hello!"
+echo "Hello from the greetings.sh file!"
